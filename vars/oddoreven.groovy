@@ -1,5 +1,5 @@
-def call() {
-  if (10 % 2 == 0) {
+def call(String name = 'human') {
+  if (name=='human') {
     pipeline {
       agent any
       stages {
