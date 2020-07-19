@@ -18,7 +18,7 @@ pipeline {
                 steps {
                     script {
                          echo "login"
-                         def simple1=new SayHello(this)
+                         def simple1=new sample(this)
                              simple1.logMeIn()
                     }
                 }
