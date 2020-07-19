@@ -1,5 +1,5 @@
-def call(int buildNumber=10) {
-  if (buildNumber % 2 == 0) {
+def call() {
+  if (10 % 2 == 0) {
     pipeline {
       agent any
       stages {
