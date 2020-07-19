@@ -1,6 +1,6 @@
 package simple
 
-class SayHello {
+class sample {
 
     def logMeIn() {
      print "Hello World"
