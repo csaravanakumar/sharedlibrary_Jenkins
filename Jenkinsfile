@@ -1,12 +1,21 @@
  libraries {
      lib('Shared_Library_Jenkins')
  }
- pipeline {
-  agent any
- stages{
-   stage('Demo') {
-     echo 'Hello world'
-     sayHello 'vrna'
- }
- }
- }
+ 
+// Declarative //
+pipeline {
+    agent any
+    stages {
+        stage('Example') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+    post { 
+        always { 
+            echo 'I will always say Hello again!'
+        }
+    }
+}
+// Script //
