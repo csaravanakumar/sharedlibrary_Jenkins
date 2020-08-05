@@ -2,8 +2,11 @@
      lib('Shared_Library_Jenkins')
  }
  pipeline {
- stage('Demo') {
+ agent {any)
+ stages{
+   stage('Demo') {
      echo 'Hello world'
      sayHello 'vrna'
+ }
  }
  }
