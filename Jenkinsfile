@@ -1,7 +1,3 @@
- libraries {
-     lib('Shared_Library_Jenkins')
- }
- 
 // Declarative //
 pipeline {
     agent any
