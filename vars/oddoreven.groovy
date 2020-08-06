@@ -1,8 +1,5 @@
-import simple.sample
-
 def call()
 {
-
 pipeline {
         agent any
         
@@ -18,9 +15,7 @@ pipeline {
                 steps {
                     script {
                          echo "login"
-                         def simple1=new sample(this)
-                             simple1.logMeIn()
-                    }
+                           }
                 }
             }
             stage ('build and push image') {
