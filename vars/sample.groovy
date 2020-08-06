@@ -1,7 +1,12 @@
 #!/usr/bin/env groovy
 
-def cal(body)
-{
-echo "pipeline test"
-return this
+def call(body) {
+    echo "Check status"
+
+    (1..3).each {
+        echo "Number: " + it
+    }
+
+    currentBuild.result = 'SUCCESS' //FAILURE to fail
+    return this
 }
