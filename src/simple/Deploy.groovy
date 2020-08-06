@@ -1,4 +1,4 @@
-package Sample
+package simple
 
 class Deploy {
 
