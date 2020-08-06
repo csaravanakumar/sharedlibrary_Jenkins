@@ -1,6 +1,5 @@
-@library 'Deploy1'
 def call(body)
 {
-  new Deploy1().run()
+  new Deploy1(this).run()
 return this
 }
