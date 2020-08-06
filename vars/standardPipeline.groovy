@@ -1,6 +1,6 @@
-import org.saro.*
+import simple.Sample
 
-  def s1 = new sample (env, steps)
+  def s1 = new Sample()
   node {
-  s1.mvn this, 'clean package'
+  s1.P();
 }
