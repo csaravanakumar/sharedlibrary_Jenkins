@@ -1,4 +1,7 @@
-public class Sample {
+class Sample {
+    Sample()
+    {
+    }
     def P(){
         echo "src test"
     }
