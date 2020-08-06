@@ -1,4 +1,4 @@
-import static org.saro.*
+import org.saro.*
 node {
   mvn this, 'clean package'
 }
