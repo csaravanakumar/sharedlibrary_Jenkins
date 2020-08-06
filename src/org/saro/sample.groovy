@@ -2,7 +2,7 @@ package org.saro
 class Saro implements Serializable {
   def env
   def steps
-  Utilities(env, steps) {
+  Saro(env, steps) {
     this.env = env
     this.steps = steps
   }
