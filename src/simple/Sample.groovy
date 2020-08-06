@@ -2,8 +2,9 @@ package simple
 class Sample {
     Sample()
     {
+    Script script
     }
     def P(){
-        echo "src test"
+       script.echo("src test")
     }
 }
