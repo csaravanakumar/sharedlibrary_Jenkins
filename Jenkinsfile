@@ -1,17 +1,9 @@
-// Declarative //
-pipeline {
-    agent any
-    stages {
-        stage('Example') {
-            steps {
-                echo 'Hello World'
-            }
-        }
-    }
-    post { 
-        always { 
-            echo 'I will always say Hello again!'
-        }
-    }
+@Library('jenkins-pipeline-shared-lib-sample')_
+
+stage('Check Status') {
+    sample()
 }
-// Script //
+stage('Odd or Even') {
+    oddoreven()
+}
+
