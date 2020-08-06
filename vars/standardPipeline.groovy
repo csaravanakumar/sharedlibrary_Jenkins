@@ -3,7 +3,7 @@
 def call(body) {
     echo "Start Deploy"
 
-    new Deployer(script:this).run()
+    new Deploy(script:this).run()
 
     echo "Deployed"
     currentBuild.result = 'SUCCESS' //FAILURE to fail
