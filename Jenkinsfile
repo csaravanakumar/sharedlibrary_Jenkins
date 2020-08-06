@@ -9,3 +9,7 @@ stage('Odd or Even') {
 stage('Odd or Even') {
     echo "shared Library Jenkins"
 }
+stage('src test') {
+    sayHello()
+}
+
