@@ -1,5 +1,6 @@
 import org.saro.*
-node {
-  def utils = new Utilities(env, steps)
-  mvn this, 'clean package'
+
+  def s1 = new sample (env, steps)
+  node {
+  s1.mvn this, 'clean package'
 }
