@@ -1,10 +1,10 @@
-package simple
+package Sample
 
-class sample {
+class Deploy {
 
     def logMeIn() {
-     print "Hello World"
-      print "vrnaplex"
+     echo "Hello World"
+      echo "vrnaplex"
    }
     }
 
