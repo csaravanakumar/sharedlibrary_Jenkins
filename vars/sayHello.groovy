@@ -1,4 +1,4 @@
 import simple.Deploy
 def call(body){
-new Deploy.logMeIn()   
+new Deploy(this).logMeIn()   
 }
