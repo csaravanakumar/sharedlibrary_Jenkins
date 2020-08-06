@@ -1,4 +1,4 @@
-class Deploy {
+class Deploy1 {
    
     def run() {
         while (tries < 10) {
