@@ -1,4 +1,4 @@
-def cal()
+def cal(body)
 {
 echo "pipeline test"
 }
