@@ -12,4 +12,7 @@ stage('Odd or Even') {
 stage('src test') {
  standardPipeline()
 }
+stage('custom deploy') {
+ deploy1()
+}
 
