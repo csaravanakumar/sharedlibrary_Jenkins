@@ -1,9 +1,12 @@
-import simple.*
-  def call(body){
+#!/usr/bin/env groovy
 
-  def s1 = new Sample()
+def call(body) {
+    echo "Start Deploy"
 
-  s1.P();
-  return this
+    new Deployer(script:this).run()
 
-  }
+    echo "Deployed"
+    currentBuild.result = 'SUCCESS' //FAILURE to fail
+
+    return this
+}
