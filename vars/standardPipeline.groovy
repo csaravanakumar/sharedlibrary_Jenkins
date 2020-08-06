@@ -4,5 +4,6 @@ import simple.*
   def s1 = new Sample()
 
   s1.P();
+  return this
 
   }
