@@ -1,4 +1,4 @@
-import simple.Sample
+import simple.*
 
   def s1 = new Sample()
   node {
