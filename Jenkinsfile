@@ -10,6 +10,6 @@ stage('Odd or Even') {
     echo "shared Library Jenkins"
 }
 stage('src test') {
-    sayHello()
+    standardPipeline()
 }
 
