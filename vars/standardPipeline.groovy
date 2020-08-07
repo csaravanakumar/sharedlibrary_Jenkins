@@ -1,5 +1,5 @@
 import Deploy
-def call() {
+def call(body) {
       def deploy = new Deploy(this)
       deploy.readConfig()
    }
