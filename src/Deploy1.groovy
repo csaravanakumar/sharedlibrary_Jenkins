@@ -1,1 +1,5 @@
 
+def sample()
+{
+  print "hai"
+}
