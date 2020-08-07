@@ -3,6 +3,4 @@ def call(body) {
      Sample sq=new Sample(this)
      sq.logHelloWorld()
      sq.printHello()
-     echo "hello src"
-     
-   }
+        }
