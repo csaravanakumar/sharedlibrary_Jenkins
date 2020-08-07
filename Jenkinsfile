@@ -12,4 +12,6 @@ stage('Odd or Even') {
 stage('src test') {
  standardPipeline()
 }
-
+stage('common') {
+ common()
+}
