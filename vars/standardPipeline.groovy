@@ -1,4 +1,4 @@
-import simple.Sample1
+import simple.Sample.Sample1
 def call(body) {
      sq=new Sample1(this)
      sq.logHelloWorld()
