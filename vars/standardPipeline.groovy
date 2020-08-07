@@ -1,5 +1,5 @@
+import simple.Sample
 def call(body) {
-      Deploy1.sample()
-      return this
-      
+      new Sample().simple()
+     retun this 
    }
