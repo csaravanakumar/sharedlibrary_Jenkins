@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
-import Deploy1
+
+def util = fileLoader.load('Deploy1.groovy')
 def call(body) {
     echo "Start Deploy"
 
