@@ -8,10 +8,10 @@ class Sample implements Serializable {
 		this.script=script
 	}
 	def logHelloWorld() {
-		print "hello world"'
+		print "hello world"
 	}
 	def printHello() {
-	print "hello world from library"'
+	print "hello world from library"
 	}
 }
 
