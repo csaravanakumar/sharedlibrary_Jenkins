@@ -3,5 +3,5 @@ def call(body) {
      Sample sq=new Sample(this)
      sq.logHelloWorld()
      sq.printHello()
-     retun this 
+     return this 
    }
