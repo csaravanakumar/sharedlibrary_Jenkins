@@ -1,5 +1,7 @@
-import simple.Sample
+import simple.Sample1
 def call(body) {
-     Sample1.simple()
+     sq=new Sample1(this)
+     sq.logHelloWorld()
+     sq.printHello()
      retun this 
    }
