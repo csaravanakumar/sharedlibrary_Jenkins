@@ -1,7 +1,7 @@
 
-package simple.Sample
+package simple
 
-class Sample1 implements Serializable {
+class Sample implements Serializable {
 	def script
 	Sample1(script)
 	{
