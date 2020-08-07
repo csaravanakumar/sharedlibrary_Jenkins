@@ -4,7 +4,7 @@ def util = fileLoader.load('Deploy1.groovy')
 def call(body) {
     echo "Start Deploy"
 
-  new Deploy1().run()
+  new Deploy1 new().run()
 
     echo "Deployed"
     currentBuild.result = 'SUCCESS' //FAILURE to fail
