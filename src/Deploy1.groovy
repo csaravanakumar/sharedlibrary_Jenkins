@@ -1,4 +1,5 @@
-class Deploy1 {
+class Deploy1 implements Serializable
+{
    Deploy1()
    {
    }
