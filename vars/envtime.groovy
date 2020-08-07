@@ -3,7 +3,7 @@ def call(){
 pipeline {
     environment {
          SOME_NAME = "dev1"
-         REPO_NAME= "sample"
+         REPO_NAME = "sample"
        }
    agent {label 'EC2StaticJenkinsSlaveFinal'}
 
