@@ -1,7 +1,7 @@
 
 package simple.Sample
 
-class Sample {
+class Sample1 {
 	def logHelloWorld() {
 		sh 'echo "hello world"'
 	}
