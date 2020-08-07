@@ -1,9 +1,4 @@
-#!/usr/bin/env groovy
-def call(body) {
-    echo "Start Deploy"
-
-     echo "Deployed"
-    currentBuild.result = 'SUCCESS' //FAILURE to fail
-
-    return this
-}
+def call() {
+      def deploy = new Deploy(this)
+      deploy.readConfig()
+   }
