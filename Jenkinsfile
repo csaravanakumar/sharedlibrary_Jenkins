@@ -15,3 +15,6 @@ stage('src test') {
 stage('common') {
  common()
 }
+stage('common') {
+ environ()
+}
