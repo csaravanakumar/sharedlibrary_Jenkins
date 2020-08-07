@@ -1,5 +1,5 @@
 
-package simple.Sample
+package simple
 
 class Sample1 {
 	def logHelloWorld() {
