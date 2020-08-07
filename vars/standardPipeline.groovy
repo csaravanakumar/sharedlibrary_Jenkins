@@ -1,5 +1,5 @@
 import simple.Sample
 def call(body) {
-     Sample.simple()
+     Sample1.simple()
      retun this 
    }
