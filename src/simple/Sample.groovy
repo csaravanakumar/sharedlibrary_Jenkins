@@ -1,5 +1,5 @@
 
-package simple.csk
+package simple.Sample
 
 class Sample1 implements Serializable {
 	def script
