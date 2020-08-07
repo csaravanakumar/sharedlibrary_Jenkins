@@ -18,3 +18,6 @@ stage('common') {
 stage('common') {
  environ()
 }
+stage('envtime') {
+ envtime()
+}
