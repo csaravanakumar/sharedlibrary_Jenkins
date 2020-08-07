@@ -3,7 +3,7 @@ package simple
 
 class Sample implements Serializable {
 	def script
-	Sample1(script)
+	Sample(script)
 	{
 		this.script=script
 	}
