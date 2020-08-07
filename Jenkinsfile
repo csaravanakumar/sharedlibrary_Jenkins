@@ -15,4 +15,9 @@ stage('src test') {
 stage('custom deploy') {
  deploy1()
 }
-
+stage("Checkout class"){
+        csk1.csk2.csk3.checkout.new().checkout(
+            "",
+            "master"
+        );
+    }
