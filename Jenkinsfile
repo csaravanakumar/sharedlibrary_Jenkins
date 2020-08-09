@@ -16,6 +16,6 @@ stage('common') {
  common()
 }
 stage('common') {
- environ()
+ date_time()
 }
 
