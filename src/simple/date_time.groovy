@@ -1,6 +1,6 @@
 package simple
 import java.time.*
-  def date_time(){
+  def datetime(){
     def now = LocalDateTime.now()
      println now
     return this
