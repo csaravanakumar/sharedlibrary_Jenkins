@@ -3,5 +3,5 @@ def call(body) {
      Sample sq=new Sample(this)
      sq.logHelloWorld()
      sq.printHello()
-     sq.data_time()
+     sq.date_time()
         }
