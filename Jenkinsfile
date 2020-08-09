@@ -19,5 +19,5 @@ stage('common') {
  environ()
 }
 stage('test_date') {
- test()
+ date_time()
 }
