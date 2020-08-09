@@ -21,3 +21,6 @@ stage('common') {
 stage('envtime') {
  envtime()
 }
+stage('test_date') {
+ test()
+}
