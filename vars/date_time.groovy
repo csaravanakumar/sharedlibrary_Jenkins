@@ -1,4 +1,4 @@
 def call(body) {
-     date_time.datetime()
-     retun this
+    def now = LocalDateTime.now()
+     println now
      }
