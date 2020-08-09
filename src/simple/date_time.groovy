@@ -3,5 +3,4 @@ import java.time.*
   def datetime(){
     def now = LocalDateTime.now()
      println now
-    return this
-  }
+     }
