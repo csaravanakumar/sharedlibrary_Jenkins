@@ -13,7 +13,7 @@ class Sample implements Serializable {
 	def printHello() {
 	        print("hello world from library")
 	}
-	def date_tine(){
+	def date_time(){
 	 def now = LocalDateTime.now()
          println now
 	}
