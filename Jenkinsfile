@@ -18,6 +18,4 @@ stage('common') {
 stage('common') {
  environ()
 }
-stage('test_date') {
- date_time()
-}
+
